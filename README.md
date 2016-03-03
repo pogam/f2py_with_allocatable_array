@@ -1,6 +1,6 @@
 an example using allocatable array with f2py
 ============================================
-it is inspired from  
+it is inspired from:
 *https://mail.scipy.org/pipermail/numpy-discussion/2012-July/063181.html
 *https://sysbio.ioc.ee/projects/f2py2e/usersguide/index.html#allocatable-arrays
 
