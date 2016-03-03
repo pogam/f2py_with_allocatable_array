@@ -1,7 +1,11 @@
-#dir
-data_test/Postproc/
+#fortran
 *.o
 *.mod 
+a.out
+
+#f2py
+test.pyf
+test.so
 
 #gvim 
 *.swp
