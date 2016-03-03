@@ -1,0 +1,19 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module test ! in 
+    interface  ! in :test
+        module testsubs ! in :test:module.f90
+            real, allocatable,dimension(:,:) :: o
+            subroutine mysub(w,x,y,z) ! in :test:module.f90:testsubs
+                real intent(in) :: w
+                real intent(in) :: x
+                real intent(in) :: y
+                real intent(in) :: z
+            end subroutine mysub
+        end module testsubs
+    end interface 
+end python module test
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
